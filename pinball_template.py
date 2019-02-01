@@ -12,6 +12,12 @@ collision_types = {
 }
 
 
+def unit_vector_between(a, b):
+    vector = [a.x - b.x, a.y - b.y]
+    magnitude = (vector[0]**2 + vector[1]**2)**(1/2)
+    return [vector[0]/magnitude, vector[1]/magnitude]
+
+
 def setup_boundaries(space):
     radius = 5
 
