@@ -3,7 +3,7 @@ This repository contains files for the Physics Engine Workshop at the Code211 Ha
 
 ### Steps
 
-Start with with `pinball_template.py`.
+Start with with [`pinball_template.py`](https://github.com/FilipOsowski/Physics-Engine-Workshop/blob/master/pinball_template.py).
 
 This workshop has three steps:
 1. Spawn pinballs using the space bar.
