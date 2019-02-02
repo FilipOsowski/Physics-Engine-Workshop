@@ -2,6 +2,7 @@ import pygame
 import pymunk
 import pymunk.pygame_util
 import math
+import random
 
 l_spring, r_spring = None, None
 
